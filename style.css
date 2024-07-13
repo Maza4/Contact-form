@@ -1,0 +1,142 @@
+:root {
+  --font-size: 16px;
+  --Greenlighter: hsl(148, 38%, 91%);
+  --Greenmedium: hsl(169, 82%, 27%);
+  --Red: hsl(0, 66%, 54%);
+  --White: hsl(0, 0%, 100%);
+  --Greymedium: hsl(186, 15%, 59%);
+  --Greydarker: hsl(187, 24%, 22%);
+}
+
+body {
+  background-color: var(--Greenlighter);
+  box-sizing: border-box;
+  padding: 0;
+  font-size: var(--font-size);
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 700;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-title h1 {
+  color: var(--Greydarker);
+  margin-top: 80px;
+  padding: 0 30px;
+}
+.form-container {
+  background-color: var(--White);
+  /* display: flex; */
+  border-radius: 5px;
+  color: var(--Greydarker);
+}
+
+form {
+  height: 550px;
+  width: 450px;
+  padding: 10px 40px;
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  gap: 3%;
+  margin: 20px 0;
+}
+
+.form-input .names {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.names input {
+  /* width: 100%; */
+  /* flex: 1; */
+  padding: 10px 0;
+  border: 1px solid var(--Greymedium);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid var(--Greymedium);
+  border-radius: 5px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px 0;
+  border: 1px solid var(--Greymedium);
+  border-radius: 5px;
+}
+
+.radios {
+  width: 100%;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.radioed {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.rd {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  border: 1px solid var(--Greymedium);
+  border-radius: 5px;
+  padding: 10px;
+}
+.rd:active {
+  background-color: var(--Greymedium);
+  border: 1px solid var(--Greenmedium);
+}
+
+.checkbox {
+  margin-top: 25px;
+}
+
+.checkbox input {
+  cursor: pointer;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: var(--Greenmedium);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 12px 0;
+  cursor: pointer;
+}
