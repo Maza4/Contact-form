@@ -41,6 +41,10 @@ form {
   padding: 10px 40px;
 }
 
+input {
+  outline: none;
+}
+
 .form-input {
   width: 100%;
   display: flex;

@@ -16,31 +16,31 @@
     <div class="form-container">
       <div class="form-title"><h1>Contact Us</h1></div>
 
-      <form action="">
+      <form action="mailto:igemuizkehinde@gmail.com" method="post">
         <div class="form-input">
           <div class="names">
             <label for="fname">First Name*</label>
-            <input type="text" placeholder=" John" />
+            <input type="text" name="fname" placeholder=" John" />
           </div>
           <div class="names">
             <label for="lname">Last Name*</label>
-            <input type="text" placeholder=" Obi" />
+            <input type="text" name="lname" placeholder=" Obi" />
           </div>
         </div>
         <div class="email">
           <label for="email">Email Address*</label>
-          <input type="email" placeholder=" Your Email" />
+          <input type="email" name="email" placeholder=" Your Email" />
         </div>
 
         <div class="radios">
           <label for="query">Query Type*</label>
           <div class="radioed">
             <div class="rd">
-              <input type="radio" />
+              <input type="radio" name="gender" />
               <label for="Ge">General Enquiry</label>
             </div>
             <div class="rd">
-              <input type="radio" />
+              <input type="radio" name="gender" />
               <label for="Sr">Support Request</label>
             </div>
           </div>
@@ -48,18 +48,18 @@
 
         <div class="message">
           <label for="msg">Message*</label>
-          <input type="text" />
+          <input type="text" name="message" />
         </div>
 
         <div class="checkbox">
-          <input type="checkbox" />
+          <input type="checkbox" name="checkbox" />
           <label for="checkbox"
             >I consent to being contacted by the team*</label
           >
         </div>
 
         <div class="submit">
-          <input type="submit" />
+          <input type="submit" name="submit" />
         </div>
       </form>
     </div>
